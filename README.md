@@ -18,7 +18,7 @@ Aahash.me
 
 ## To do
 - [ ] Update site
-- [ ] Learn Git
+- [x] Learn Git
 
 ## Authors
 | [![http://twitter/SuriyaaKudoIsc](http://secure.gravatar.com/avatar/fdf96ca751e2e9d247b77d95e6f70da9)](https://twitter.com/SuriyaaKudoIsc "Follow @SuriyaaKudoIsc on Twitter") | [![http://aahash.me](http://sites.google.com/site/aahashwebsite/_/rsrc/1356710298235/config/customLogo.gif)](http://aahash.isc "Visit my site!") |

@@ -11,4 +11,7 @@ Disallow: *
 
 User-agent: Googlebot
 Allow: index.html
+Allow: sitemap.xml
 Disallow: /
+Disallow: bower_components/
+Disallow: style/

@@ -1,0 +1,26 @@
+{
+  "short_name": "Aahash de Ruffy",
+  "name": "Aahash de Ruffy",
+  "icons": [
+    {
+      "src": "https://pbs.twimg.com/profile_images/773414742555787264/ntwTEBL8.jpg",
+      "type": "image/jpeg",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://pbs.twimg.com/profile_images/773414742555787264/ntwTEBL8.jpg",
+      "type": "image/jpeg",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://pbs.twimg.com/profile_images/773414742555787264/ntwTEBL8.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://aahash.tk/?launcher=true"
+  "background_color": "#F0EFE2",
+  "theme_color": "#F79F00",
+  "display": "standalone"
+  "gcm_sender_id": "124394947458"
+}

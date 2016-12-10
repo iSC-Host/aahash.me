@@ -1,20 +1,49 @@
+<!-- Style header layout -->
+<style>
+.mdl-layout__header {
+  background-color: #FF9100;
+}
+</style>
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">{{ site.title }}</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" target="_blank" href="https://groupify.isc/AahashDeRuffy">Groupify</a>
+        <a class="mdl-navigation__link" target="_blank" href="https://twitter.com/AahashDeRuffy">Twitter</a>
+        <a class="mdl-navigation__link" target="_blank" href="https://www.google.com/profiles/114975650711286325883">Google+</a>
+        <a class="mdl-navigation__link" target="_blank" href="https://github.com/AahashDeRuffy">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">My Projects</span>
+    <nav class="mdl-navigation">
+	  <a class="mdl-navigation__link" target="_blank" href="https://jdsf.isc/">The Jack's Dogs Family</a>
+      <a class="mdl-navigation__link" target="_blank" href="https://crash.isc/">Crash</a>
+
+	<hr>
+
+		<div>
+			<p align="center" style="font-size:15px">
+				<big><span class="octicon octicon-code"></span> with <span style="color:red" class="octicon octicon-heart"></span> by <a href="https://twitter.com/jacksdogsfamily">Espeñiol</a><br /> for Dolinj using <a href="https://github.com/bunto/bunto">Bunto</a> on <a href="https://github.com/iSC-Host/aahash.me" class="octicon octicon-mark-github"></a></big>
+			</p>
+		</div>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+
     <div id="header">
       <div id="logo">
         <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">Aahash <span class="logo_colour">de Ruffy</span></a></h1>
+          <h1><a href="{{ site.url }}">Aahash <span class="logo_colour">de Ruffy</span></a></h1>
           <h2>The official website of Aahash de Ruffy</h2>
         </div>
       </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.html">Home</a></li>
-          <li><a href="bio.html">Bio</a></li>
-          <li><a href="blog">Blog</a></li>
-          <li><a href="works">Works</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
+      {% include nav.html %}
     </div>

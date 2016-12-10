@@ -1,21 +1,25 @@
 <!DOCTYPE HTML>
-<html>
+{% include copyright.html %}
+<html lang="{{ page.lang }}" ng-app="{{ page.angularjs }}">
 
 <head>
+
 {% include head.html %}
+
 </head>
 
 <body>
   <div id="main">
 {% include header.html %}
-    <div id="site_content">
-{% include nav.html %}
-{% include search.html %}
+    <div class="page-content">
 {{ content }}
+
   </div>
 {% include footer.html %}
+
+{% include scripts.html %}
 
 <!-- END -->
   </body>
 </html>
-{% include footer-comment.html %}
+{% include comment.html %}

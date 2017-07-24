@@ -170,7 +170,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content ul li
 { list-style-type: none;
-  background: url(bullet.png) no-repeat;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAe1BMVEUAAACAAAAAgACAgAAAAICAAIAAgIDAwMDA3MCmyvCOv+uPv+qptcCPwvCPwvGPw/GUwOebw+eQw/GSw/GVxPGXxfGcyPGcyfGuy+Kty+SmzvGtz/Gw0vG01PG61/G92PHO2uPF3PHM3/HU3eTN4PHX5fHi4+Pk6/Dz8/PYEmFbAAAAKXRSTlP/////////////////////////////////////////////////////AFL0IIcAAAA6SURBVHgBY9BAA/QSUJCXkkAWUFZXkRGRRBJQUlWUFuZHEpCVkxHjQxYQFBflExJANpSLj5ebMocBAHsnJfUfWT51AAAAAElFTkSuQmCC) no-repeat;
   margin: 0 0 6px 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}

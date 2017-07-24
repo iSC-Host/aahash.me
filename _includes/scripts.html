@@ -1,18 +1,18 @@
 <!-- Local JS files -->
-<script src="{{ site.assets_url }}/config.js"></script>
-<script src="{{ site.assets_url }}/main.js"></script>
+<script src="{{ site.assets_url }}/config.js" async></script>
+<script src="{{ site.assets_url }}/main.js" async></script>
 
 <!-- NProgress.js -->
-<script>
+<script async>
 NProgress.start();
 setTimeout(function() { NProgress.done(); }, 1000);
 </script>
 
 <!-- Twitter Widgets -->
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script>
 
 <!-- JSON-lD -->
-<script>
+<script async>
 {
   "@context": "http://schema.org",
   "id": "https://www.wikibase.isc/wiki/$18",
@@ -35,8 +35,8 @@ setTimeout(function() { NProgress.done(); }, 1000);
 </script>
 
 <!-- Google Firebase -->
-<script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
-<script>
+<script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js" async></script>
+<script async>
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyDqqj9l9BiTS93KJatNeIB-kNzNPxC9k24",
@@ -49,7 +49,7 @@ setTimeout(function() { NProgress.done(); }, 1000);
 </script>
 
 <!-- Google Analytics -->
-<script>
+<script async>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

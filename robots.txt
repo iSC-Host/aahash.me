@@ -13,6 +13,12 @@ User-agent: Googlebot
 Allow: index.html
 Allow: sitemap.xml
 Allow: manifest.json
-Disallow: /
-Disallow: bower_components/
-Disallow: style/
+Allow: /
+Disallow: assets/
+Disallow: .eslintrc
+Disallow: .gitignore
+Disallow: .travis.yml
+Disallow: CNAME
+Disallow: Gemfile
+Disallow: README.md
+Disallow: _config.yml
